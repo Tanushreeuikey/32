@@ -28,7 +28,7 @@ function draw(){
     background(backgroundImg);
     textSize(20)
     text("TIME : "+time,100,100)
-
+  console.log(time)
      getBackgroundImg()
  
     Engine.update(engine);
@@ -43,7 +43,7 @@ async function getBackgroundImg(){
     // write code to fetch time from API
     var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata") 
     var jason = await response.json()
-    //console.log(jason)
+    console.log(jason)
 
     var dateTime= jason.datetime
     //console.log(dateTime)
