@@ -26,11 +26,12 @@ function draw(){
     // add condition to check if any background image is there to add
 
     background(backgroundImg);
-    textSize(20)
+   
+     getBackgroundImg()
+  textSize(20)
     text("TIME : "+time,100,100)
   console.log(time)
-     getBackgroundImg()
- 
+    
     Engine.update(engine);
     
     // write code to display time in correct format here
