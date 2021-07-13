@@ -32,7 +32,7 @@ function draw(){
     text("TIME : "+time,100,100)
   console.log(time)
     
-    Engine.update(engine);
+    //Engine.update(engine);
     
     // write code to display time in correct format here
     
